@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/logInMenu"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Log In"
+        android:visible="true"/>
+    <item
+        android:id="@+id/goToHome"
+        android:icon="@drawable/logo"
+        android:title="Home" />
+    <item
+        android:id="@+id/myCart"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Cart"
+        android:visible="true" />
+    <item
+        android:id="@+id/myOrder"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="My Orders"
+        android:visible="true" />
+    <item
+        android:id="@+id/changeProfile"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Change Profile"
+        android:visible="true" />
+    <item
+        android:id="@+id/logOutMenu"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Log Out" />
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "304897174689",
+    "firebase_url": "https://sparna-1.firebaseio.com",
+    "project_id": "sparna-1",
+    "storage_bucket": "sparna-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304897174689:android:7c000cb4afe80a25e194e0",
+        "android_client_info": {
+          "package_name": "com.sabbir.sparna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304897174689-e2hvv81nj7qohkg0h6ttugpvko1nbmp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sabbir.sparna",
+            "certificate_hash": "fcc2cb6842c5793651289f09059c4eb130d2cd3f"
+          }
+        },
+        {
+          "client_id": "304897174689-1unu33kn0d5oiii1fiqr4gkjj5ttn5oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgep87vX_sNq_vX7W35hMnvgc5TEeFaxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304897174689-1unu33kn0d5oiii1fiqr4gkjj5ttn5oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

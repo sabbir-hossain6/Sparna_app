@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="172dp"
+        android:layout_height="178dp"
+        android:onClick="selectBkash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162"
+        app:srcCompat="@drawable/bkash" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="157dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="28dp"
+        android:onClick="selectCash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:srcCompat="@drawable/cash" />
+
+    <TextView
+        android:id="@+id/bkashmsg"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:text="Please pay at 01521412024 and send your transaction id here"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <EditText
+        android:id="@+id/inputTrans"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Transaction ID"
+        android:inputType="textPersonName"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bkashmsg"
+        app:layout_constraintVertical_bias="0.087"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <Button
+        android:id="@+id/bkashPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="placeOrderBkash"
+        android:text="Place Order"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputTrans"
+        app:layout_constraintVertical_bias="0.168" />
+</androidx.constraintlayout.widget.ConstraintLayout>
